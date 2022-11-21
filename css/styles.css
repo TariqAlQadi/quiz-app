@@ -1,16 +1,78 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: borderbox;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 h1 {
-    color:aliceblue;
-    text-align: center;
-    background-color: blue;
+    background-color: rgb(35, 30, 127);
+    height: 80px;
     width: 100%;
-    padding: 10px
+    text-align: center;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
 }
 
 body {
     
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(67, 114, 196);
+}
+
+article {
+    box-align: center;
+    margin: 100px;
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+
+button {
+    padding: 10px;
+    margin-left: 140px;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: rgb(16, 11, 76);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: rgb(25, 2, 119);
+  }
+  
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #040faa;
+    color: white;
+  }
+
+div {
+    display: flex;
+    justify-content: space-around;
 }
