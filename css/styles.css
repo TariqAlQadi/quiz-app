@@ -22,24 +22,28 @@ label.logo {
 }
 
 body {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(67, 114, 196);
 }
 
 article {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
     box-align: center;
     margin: 100px;
     padding: 30px;
-    background-color: antiquewhite;
+    background-color: rgb(254, 231, 201);
     border-radius: 25px;
     box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 button {
     padding: 10px;
-    margin-left: 140px;
     border-radius: 25px;
     box-shadow: 2px 2px 2px rgb(183, 171, 171);
 }
@@ -88,11 +92,20 @@ div {
 }
 
 ul {
-    margin-left: -10px;
     margin-bottom: -10px;
 }
 li {
-    padding: 2px;
+    padding: 4px;
     background-color: rgb(191, 189, 189);
     border-radius: 3px;
 }
+
+
+
+
+
+
+
+
+
+
