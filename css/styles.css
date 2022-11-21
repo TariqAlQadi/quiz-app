@@ -48,16 +48,14 @@ button {
     box-shadow: 2px 2px 2px rgb(183, 171, 171);
 }
 
-/* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
     background-color: rgb(16, 11, 76);
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  /* Style the links inside the navigation bar */
+}
+
 .navbar a {
     float: left;
     display: block;
@@ -68,16 +66,14 @@ button {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
 .navbar a:hover {
     background-color: rgb(34, 8, 137);
-  }
+}
   
-  /* Add a color to the active/current link */
 .navbar a.active {
     background-color: rgb(34, 8, 137);
     color: white;
-  }
+}
 
 div {
     display: flex;
@@ -91,9 +87,6 @@ div {
 
 }
 
-ul {
-    margin-bottom: -10px;
-}
 li {
     padding: 4px;
     background-color: rgb(191, 189, 189);
@@ -103,6 +96,8 @@ li {
 img {
     height: 40px;
 }
+
+
 
 
 
