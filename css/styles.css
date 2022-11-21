@@ -33,9 +33,9 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
     box-align: center;
-    margin: 100px;
+    gap: 10px;
+    margin: 10px;
     padding: 30px;
     background-color: rgb(254, 231, 201);
     border-radius: 25px;
@@ -98,6 +98,10 @@ li {
     padding: 4px;
     background-color: rgb(191, 189, 189);
     border-radius: 3px;
+}
+
+img {
+    height: 40px;
 }
 
 
