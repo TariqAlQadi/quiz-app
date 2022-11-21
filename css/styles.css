@@ -93,11 +93,40 @@ li {
     border-radius: 3px;
 }
 
-img {
-    height: 40px;
+
+
+
+.profil {
+    stroke: rgb(156, 156, 156);
+    stroke-width: 25;
+    stroke-miterlimit: 10;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(255, 255, 255);
+
 }
 
+.homebutton {
+    stroke: rgb(156, 156, 156);
+    stroke-width: 25;
+    stroke-miterlimit: 10;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(255, 255, 255);
+  }
+  
 
+.bookmark {
+  stroke: rgb(156, 156, 156);
+  stroke-width: 25;
+  stroke-miterlimit: 10;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  fill: rgb(255, 255, 255);
+}
 
 
 
