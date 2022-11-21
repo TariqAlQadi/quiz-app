@@ -108,9 +108,22 @@ li {
     border-radius: 3px;
 }
 
+.profil-pic {
 
+    margin: 30px;
+    padding: 10px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid white;
+    stroke: rgb(6, 6, 6);
+    stroke-width: 50;
+    stroke-miterlimit: 10;
+    fill: rgb(255, 255, 255);
+    
 
+}
 
+/* Navbar SVG's */
 .profil {
 
     stroke: rgb(6, 6, 6);
