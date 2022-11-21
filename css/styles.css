@@ -28,17 +28,20 @@ body {
 }
 
 article {
+
     box-align: center;
     margin: 100px;
     padding: 30px;
     background-color: antiquewhite;
     border-radius: 25px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 button {
     padding: 10px;
     margin-left: 140px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgb(183, 171, 171);
 }
 
 /* Place the navbar at the bottom of the page, and make it stick */
@@ -63,16 +66,33 @@ button {
   
   /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: rgb(25, 2, 119);
+    background-color: rgb(34, 8, 137);
   }
   
   /* Add a color to the active/current link */
 .navbar a.active {
-    background-color: #040faa;
+    background-color: rgb(34, 8, 137);
     color: white;
   }
 
 div {
     display: flex;
     justify-content: space-around;
+}
+
+.hashtag {
+    display: flex;
+    justify-content: row;
+    gap: 5px;
+
+}
+
+ul {
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+li {
+    padding: 2px;
+    background-color: rgb(191, 189, 189);
+    border-radius: 3px;
 }
