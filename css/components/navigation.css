@@ -1,0 +1,71 @@
+.navbar {
+    background-color: rgb(16, 11, 76);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: rgb(34, 8, 137);
+}
+  
+.navbar a.active {
+    border-radius: 50px;
+    background-color: rgb(34, 8, 137);
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Navbar SVG's */
+
+.profil {
+    stroke: rgb(6, 6, 6);
+    stroke-width: 50;
+    stroke-miterlimit: 10;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(255, 255, 255);
+}
+
+.homebutton {
+    position: relative;
+    top: 5px;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 50;
+    stroke-miterlimit: 10;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(255, 255, 255);
+}
+  
+
+.bookmark {
+    position: relative;
+    top:2px;
+    left: 2px;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 25;
+    stroke-miterlimit: 10;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    fill: rgb(255, 255, 255);
+}
